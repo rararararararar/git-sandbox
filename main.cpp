@@ -10,9 +10,13 @@ int main() {
         std::cin >> choice;
 
         switch (choice) {
-            case 1:
-                std::cout << "Расчет выполнен.\n";
+            case 1: {
+                double r;
+                std::cout << "Введите радиус r: ";
+                std::cin >> r;
+                std::cout << "Результат (S = pi * r^2): " << 3.14159 * r * r << "\n";
                 break;
+            }
             case 0:
                 std::cout << "Выход из программы.\n";
                 break;
