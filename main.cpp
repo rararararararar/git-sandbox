@@ -15,6 +15,7 @@ int main() {
                 std::cout << "Введите радиус r: ";
                 std::cin >> r;
                 std::cout << "Результат (S = pi * r^2): " << 3.14159 * r * r << "\n";
+                std::cout << "по рофлу";
                 break;
             }
             case 0:
